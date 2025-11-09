@@ -1,0 +1,60 @@
+* {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #90B09F;
+}
+.glass-card {
+    width: 350px;
+    height: 450px;
+    border-radius: 15px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: rgb(13, 12, 12);
+    background-color: #4C7863;
+   
+}
+img {
+    width: 120px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: 0 -10px;
+}
+h1 {
+    margin: 10px 0;
+    font-weight: bold;
+    font-family: poppins;
+    background-color: transparent;
+}
+h4 {
+    margin: 5px 0;
+    font-weight: lighter;
+    font-family: poppins;
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: poppins;
+    margin-top: 15px;
+    background-color: transparent;
+}
+.btn-1 {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    margin-left: 10px;
+    font-size: large;
+}
